@@ -1,0 +1,14 @@
+{
+    "noIndex": [
+        "SQL:  SELECT * FROM users WHERE dob > ? limit 1000;  params: [\"2000-01-01\"],   time:  54.731584548950195  ms",
+        "SQL:  SELECT * FROM users WHERE dob = ? limit 1000;  params: [\"2000-01-01\"],   time:  5723.419500350952  ms",
+        "SQL:  SELECT * FROM users WHERE dob < ? limit 1000;  params: [\"2000-01-01\"],   time:  9.128917694091797  ms",
+        "SQL:  SELECT * FROM users WHERE name LIKE ? limit 1000;  params: [\"%Jhon%\"],   time:  12387.289916992188  ms"
+    ],
+    "betree": [
+        "SQL:  SELECT * FROM users WHERE dob > ? limit 1000;  params: [\"2000-01-01\"],   time:  413.90487480163574  ms",
+        "SQL:  SELECT * FROM users WHERE dob = ? limit 1000;  params: [\"2000-01-01\"],   time:  502.2122926712036  ms",
+        "SQL:  SELECT * FROM users WHERE dob < ? limit 1000;  params: [\"2000-01-01\"],   time:  190.5493745803833   ms",
+        "SQL:  SELECT * FROM users WHERE name LIKE ? limit 1000;  params: [\"%Jhon%\"],   time:  12669.005624771118  ms"
+    ]
+}

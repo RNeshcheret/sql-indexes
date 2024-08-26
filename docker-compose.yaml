@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  db:
+    container_name: mysql-test
+    image: mysql:8
+    restart: always
+    environment:
+      MYSQL_USER: "user"
+      MYSQL_PASSWORD: "test"
+      MYSQL_ROOT_PASSWORD: "master"
+      MYSQL_DATABASE: "test"
+    ports:
+      - "3306:3306"
